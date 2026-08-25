@@ -1,5 +1,7 @@
 # Avaliacao-PHP-MYSQL
 
+## Observação a ser considerada pelo candidato, não é permitido o uso de Inteligência Artificial para o desenvolvimento do teste, pois o teste visa analisar o conhecimento do candidato. Nós realizamos a análise para verificar se foi utilizado algum padrão/ferramenta de IA. Caso seja constatado o uso de IA, o candidato estará automaticamente desclassificado.
+
 ## O projeto consiste em análisar o conhecimento nas seguintes técnologias:
 
 * PHP Orientado a Objetos
@@ -44,7 +46,7 @@ Então deve mostrar de forma destacada uma pequena lista com os últimos serviç
 ## Tela de Dashboard (Marcar status como finalizado)
 Dado que o usuário acesse a tela de dashboard com usuário correto
 Então devo clicar no botão do registro a ser finalizado, gravar a data de finalização do serviço e enviar um email para o usuário do serviço, e calcular o valor da comissão. Os serviços que possuem data de finalização serão considerados como finalizados e os que não possuem serão considerados como pendentes.
-	Para valores até R$ 250, 00 será dado 5% de comissão
+	Para valores abaixo ou igual a R$ 1.000,00 será dado 5% de comissão
 	Para valores acima de R$ 1.000,00 será dado 10% de comissão
 	Para valores acima de R$ 10.000,00 será dado 20% de comissão.
 
